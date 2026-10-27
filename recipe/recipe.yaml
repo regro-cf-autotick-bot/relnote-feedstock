@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: relnote
-  version: "0.3.2"
+  version: "0.3.5"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/loki-inu/relnote/archive/v${{ version }}.tar.gz
-  sha256: 8494ff181d5f25277f8a24676c5a36da60356d1cde6ecbc11b7ee2acabbf7ab3
+  sha256: f7d057e0761824d0d392122c0fa76a64f2a2185c359d5fb62796f39e2e79e3f6
 
 build:
   number: 0
